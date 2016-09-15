@@ -28,6 +28,19 @@
             // Assert
             $this->assertEquals(0, $result);
         }
+
+        function test_determineWeekday_century()
+        {
+            // Assemble
+            $test_weekday = new Weekday();
+            $input = 2016;
+
+            // Act
+            $result = $test_weekday->determineCentury($input);
+
+            // Assert
+            $this->assertEquals(6, $result);
+        }
     }
 
 
