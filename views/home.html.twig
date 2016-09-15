@@ -1,10 +1,18 @@
 <html>
   <head>
-    <meta charset="utf-8">
-    <title>Template</title>
+      <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <title>Weekday</title>
   </head>
   <body>
-      <p>hi</p>
-      <a href="/test"><button type="submit" name="button">Tester</button></a>
+      <div class="container">
+          <h1>Enter a date to get the weekday it is:</h1>
+          <form action="/getWeekday" method="post">
+              <div class="form-group">
+                  <label for="date">Enter Date</label>
+                  <input name="date" type="text" class="form-control">
+              </div>      
+              <button type="submit" class="btn btn-info">Go!</button>
+          </form>
+      </div>
   </body>
 </html>

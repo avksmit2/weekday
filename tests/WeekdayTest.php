@@ -7,13 +7,13 @@
         {
             // Assemble
             $test_weekday = new Weekday();
-            $input = "09/15/2016";
+            $input = "09/16/2016";
 
             // Act
             $result = $test_weekday->determineWeekday($input);
 
             // Assert
-            $this->assertEquals("Thursday", $result);
+            $this->assertEquals("Friday", $result);
         }
 
         function test_determineWeekday_month()
