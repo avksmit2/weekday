@@ -41,6 +41,19 @@
             // Assert
             $this->assertEquals(6, $result);
         }
+
+        function test_determineWeekday_leapYear()
+        {
+            // Assemble
+            $test_weekday = new Weekday();
+            $input = 1992;
+
+            // Act
+            $result = $test_weekday->determineLeapYear($input);
+
+            // Assert
+            $this->assertEquals(true, $result);
+        }
     }
 
 
