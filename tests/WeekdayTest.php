@@ -7,20 +7,20 @@
         {
             // Assemble
             $test_weekday = new Weekday();
-            $input = 0;
+            $input = "09/15/2016";
 
             // Act
             $result = $test_weekday->determineWeekday($input);
 
             // Assert
-            $this->assertEquals("Sunday", $result);
+            $this->assertEquals("Thursday", $result);
         }
 
         function test_determineWeekday_month()
         {
             // Assemble
             $test_weekday = new Weekday();
-            $input = "January";
+            $input = "01";
 
             // Act
             $result = $test_weekday->determineMonth($input);
@@ -54,6 +54,32 @@
             // Assert
             $this->assertEquals(true, $result);
         }
+
+        function test_determineWeekday_yearCode()
+        {
+            // Assemble
+            $test_weekday = new Weekday();
+            $input = 1897;
+
+            // Act
+            $result = $test_weekday->determineYearCode($input);
+
+            // Assert
+            $this->assertEquals(2, $result);
+        }
+
+        // function test_determineWeekday_weekday()
+        // {
+        //     // Assemble
+        //     $test_weekday = new Weekday();
+        //     $input = "03/14/1987";
+        //
+        //     // Act
+        //     $result = $test_weekday->determineWeekday($input);
+        //
+        //     // Assert
+        //     $this->assertEquals("Saturday", $result);
+        // }
     }
 
 

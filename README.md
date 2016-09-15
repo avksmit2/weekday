@@ -17,7 +17,7 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 | Return century assigned to number | 0 | 1900s |
 | Determine leap year | 1992 | True |
 | Return year code  | 1897 | 2 |
-
+| Return the weekday from a date provided by user | 3/14/1987 | Saturday |
 
 ## Setup/Installation Requirements
 
