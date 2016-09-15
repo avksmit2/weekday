@@ -2,7 +2,7 @@
 
 #### _{Date of current version}_
 
-#### By _**Martin Cartledge**_
+#### By _**Martin Cartledge &amp; Angie Smith**_
 
 ## Description
 
@@ -12,9 +12,11 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 
 | Behavior      | Input       |Output|
 | ------------- |-------------| -----|
-| Behavior 1 | Input 1 | Output 1 |
-| Behavior 2 | Input 2 | Output 2 |
-| Behavior 3 | Input 3 | Output 3 |
+| Return day of the week assigned to number | 0| Sunday |
+| Return month of the year assigned to number | 0 | January |
+| Return century assigned to number | 0 | 1900s |
+| Determine leap year | 1992 | True |
+| Return year code  | 1897 | 2 |
 
 
 ## Setup/Installation Requirements
