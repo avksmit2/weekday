@@ -1,6 +1,4 @@
-# _{Application Name}_
-
-#### _{Date of current version}_
+# _weekday_
 
 #### By _**Martin Cartledge &amp; Angie Smith**_
 
